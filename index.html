@@ -858,48 +858,80 @@
             </div>
         </div>
 
-        <!-- Slide 7: Customization for Aesthetic Clinic -->
+        <!-- Slide 7: Technology Stack -->
         <div class="slide slide-content" data-slide="7">
             <div class="slide-header">
-                <h2>Customization Options <span style="font-size: 1rem; background: #f093fb; color: white; padding: 5px 15px; border-radius: 20px; margin-left: 15px;">For Lelux</span></h2>
+                <h2>Technology Stack</h2>
                 <span class="slide-number">07 / 10</span>
             </div>
-            <div class="slide-body" style="gap: 20px;">
-                <div class="feature-grid" style="grid-template-columns: repeat(2, 1fr); width: 100%; max-width: 900px; margin: 0 auto;">
-                    <div class="feature-card" style="border: 2px solid #f093fb;">
-                        <h4 style="color: #d63384;">📸 Photo Gallery Module</h4>
-                        <ul>
-                            <li>Before / After Photos</li>
-                            <li>Multi-angle Capture</li>
-                            <li>Timeline Comparison</li>
-                            <li>Privacy & Consent</li>
-                            <li>Secure Storage</li>
-                        </ul>
+            <div class="slide-body" style="flex-direction: column; gap: 25px; align-items: center;">
+                <!-- Tech Categories -->
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; width: 100%; max-width: 1000px;">
+                    <!-- Frontend -->
+                    <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.08);">
+                        <h4 style="color: #667eea; margin-bottom: 15px; font-size: 1.1rem;">🎨 Frontend</h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                            <span style="background: #42b883; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">Vue 3</span>
+                            <span style="background: #00dc82; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">Nuxt.js 3</span>
+                            <span style="background: #3178c6; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">TypeScript</span>
+                            <span style="background: #38bdf8; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">Tailwind CSS</span>
+                            <span style="background: #18181b; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">ShadcnUI</span>
+                        </div>
                     </div>
-                    <div class="feature-card" style="border: 2px solid #f093fb;">
-                        <h4 style="color: #d63384;">👥 CRM Module</h4>
-                        <ul>
-                            <li><strong>Customer Journey Tracking</strong></li>
-                            <li><strong>Post-op Follow-up</strong></li>
-                        </ul>
-                        <p style="font-size: 0.85rem; color: #666; margin-top: 10px; font-style: italic;">Re-use existing HIS data</p>
+                    <!-- Backend -->
+                    <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.08);">
+                        <h4 style="color: #667eea; margin-bottom: 15px; font-size: 1.1rem;">⚙️ Backend</h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                            <span style="background: #6644ff; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">Directus</span>
+                            <span style="background: #336791; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">PostgreSQL</span>
+                            <span style="background: #ff6b6b; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">REST API</span>
+                            <span style="background: #e535ab; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">GraphQL</span>
+                        </div>
+                    </div>
+                    <!-- AI & Infrastructure -->
+                    <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.08);">
+                        <h4 style="color: #667eea; margin-bottom: 15px; font-size: 1.1rem;">🤖 AI & Infra</h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                            <span style="background: #000000; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">Ollama</span>
+                            <span style="background: #dc4a38; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">Qdrant</span>
+                            <span style="background: #2496ed; color: white; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 500;">Docker</span>
+                        </div>
                     </div>
                 </div>
-                <!-- Explanation Cards -->
-                <div style="display: flex; gap: 20px; width: 100%; max-width: 900px; margin: 0 auto;">
-                    <div style="flex: 1; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 4px solid #00B894;">
-                        <h4 style="color: #00A085; margin-bottom: 10px;">📊 Customer Journey Tracking</h4>
-                        <p style="color: #555; font-size: 0.95rem; line-height: 1.6;">
-                            View complete patient history from <strong>first consultation → procedure → recovery → follow-up</strong>.
-                            Dashboard shows visit timeline, treatments received, spending history, and next appointment - all from existing HIS data.
-                        </p>
-                    </div>
-                    <div style="flex: 1; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 4px solid #00B894;">
-                        <h4 style="color: #00A085; margin-bottom: 10px;">🔔 Post-op Follow-up</h4>
-                        <p style="color: #555; font-size: 0.95rem; line-height: 1.6;">
-                            Auto-generate follow-up schedule based on procedure type. Alert staff when patients are due for <strong>1-week, 1-month, 3-month</strong> check-ups.
-                            Track recovery progress using existing appointment & visit data.
-                        </p>
+                <!-- Architecture Diagram -->
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.08); width: 100%; max-width: 1000px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+                        <div style="text-align: center; flex: 1;">
+                            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 12px; margin-bottom: 10px;">
+                                <span style="font-size: 2rem;">🖥️</span>
+                                <p style="margin-top: 8px; font-weight: 600;">Web Browser</p>
+                                <p style="font-size: 0.8rem; opacity: 0.9;">Vue 3 + Nuxt.js</p>
+                            </div>
+                        </div>
+                        <div style="font-size: 2rem; color: #ccc;">→</div>
+                        <div style="text-align: center; flex: 1;">
+                            <div style="background: linear-gradient(135deg, #00B894 0%, #00A085 100%); color: white; padding: 20px; border-radius: 12px; margin-bottom: 10px;">
+                                <span style="font-size: 2rem;">⚡</span>
+                                <p style="margin-top: 8px; font-weight: 600;">API Server</p>
+                                <p style="font-size: 0.8rem; opacity: 0.9;">Directus + Nuxt API</p>
+                            </div>
+                        </div>
+                        <div style="font-size: 2rem; color: #ccc;">→</div>
+                        <div style="text-align: center; flex: 1;">
+                            <div style="background: linear-gradient(135deg, #336791 0%, #1a3d5c 100%); color: white; padding: 20px; border-radius: 12px; margin-bottom: 10px;">
+                                <span style="font-size: 2rem;">🗄️</span>
+                                <p style="margin-top: 8px; font-weight: 600;">Database</p>
+                                <p style="font-size: 0.8rem; opacity: 0.9;">PostgreSQL</p>
+                            </div>
+                        </div>
+                        <div style="font-size: 2rem; color: #ccc;">↔</div>
+                        <div style="text-align: center; flex: 1;">
+                            <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 12px; margin-bottom: 10px;">
+                                <span style="font-size: 2rem;">🧠</span>
+                                <p style="margin-top: 8px; font-weight: 600;">AI Engine</p>
+                                <p style="font-size: 0.8rem; opacity: 0.9;">Ollama (On-Premise)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
