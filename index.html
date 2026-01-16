@@ -905,46 +905,57 @@
             </div>
         </div>
 
-        <!-- Slide 8: AI Features (Under Development) -->
+        <!-- Slide 8: AI Features -->
         <div class="slide slide-content" data-slide="8">
             <div class="slide-header">
-                <h2>AI Features <span style="font-size: 1rem; background: #667eea; color: white; padding: 5px 15px; border-radius: 20px; margin-left: 15px;">Coming Soon</span></h2>
+                <h2>AI Features</h2>
                 <span class="slide-number">08 / 10</span>
             </div>
-            <div class="slide-body">
-                <div class="ai-grid">
-                    <div class="feature-card ai-dev-card">
-                        <h4>📸 AI Face Analysis</h4>
-                        <ul>
-                            <li>3D Facial Landmark Detection</li>
-                            <li>Symmetry & Proportion Analysis</li>
-                            <li>Procedure Recommendation</li>
-                        </ul>
+            <div class="slide-body" style="flex-direction: column; gap: 30px; align-items: center;">
+                <!-- Implemented AI Features -->
+                <div style="width: 100%; max-width: 900px;">
+                    <h3 style="color: #00A085; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+                        <span style="background: #00B894; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem;">Implemented</span>
+                    </h3>
+                    <div class="feature-grid" style="grid-template-columns: repeat(2, 1fr); width: 100%;">
+                        <div class="feature-card" style="background: linear-gradient(135deg, #00B894 0%, #00A085 100%); color: white; border-left: none;">
+                            <h4 style="color: white;">💊 AI Drug Interaction Check</h4>
+                            <ul>
+                                <li style="color: rgba(255,255,255,0.95);">Real-time Interaction Detection</li>
+                                <li style="color: rgba(255,255,255,0.95);">Severity Level (Major/Moderate/Minor)</li>
+                                <li style="color: rgba(255,255,255,0.95);">Thai Language Explanation</li>
+                                <li style="color: rgba(255,255,255,0.95);">Alternative Drug Suggestion</li>
+                            </ul>
+                        </div>
+                        <div class="feature-card" style="background: linear-gradient(135deg, #00B894 0%, #00A085 100%); color: white; border-left: none;">
+                            <h4 style="color: white;">🩺 AI Diagnosis Suggestion</h4>
+                            <ul>
+                                <li style="color: rgba(255,255,255,0.95);">ICD-10 Code Suggestion</li>
+                                <li style="color: rgba(255,255,255,0.95);">From Chief Complaint (Thai)</li>
+                                <li style="color: rgba(255,255,255,0.95);">Confidence Score</li>
+                                <li style="color: rgba(255,255,255,0.95);">On-Premise LLM Processing</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="feature-card ai-dev-card">
-                        <h4>✨ AI Simulation</h4>
-                        <ul>
-                            <li>Before/After Preview</li>
-                            <li>Nose, Chin, V-line Simulation</li>
-                            <li>Patient Visualization Tool</li>
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h3><span class="icon">🔒</span> Privacy First</h3>
-                        <ul>
-                            <li>100% On-Premise AI</li>
-                            <li>Patient Photos Never Leave Hospital</li>
-                            <li>No Cloud Processing</li>
-                            <li>PDPA Compliant</li>
-                        </ul>
-                    </div>
-                    <div class="card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; border-left: none;">
-                        <h3 style="color: white;"><span class="icon">💡</span> Future Roadmap</h3>
-                        <ul>
-                            <li style="color: rgba(255,255,255,0.9);">Body Contouring Preview</li>
-                            <li style="color: rgba(255,255,255,0.9);">Skin Analysis & Treatment</li>
-                            <li style="color: rgba(255,255,255,0.9);">AR Try-On Experience</li>
-                        </ul>
+                </div>
+                <!-- Future Roadmap -->
+                <div style="width: 100%; max-width: 900px;">
+                    <h3 style="color: #666; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+                        <span style="background: #667eea; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem;">Future Roadmap</span>
+                    </h3>
+                    <div style="display: flex; gap: 15px;">
+                        <div style="flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 2px dashed #667eea; text-align: center;">
+                            <span style="font-size: 2rem;">📋</span>
+                            <p style="color: #666; margin-top: 10px; font-weight: 500;">Treatment Recommendation</p>
+                        </div>
+                        <div style="flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 2px dashed #667eea; text-align: center;">
+                            <span style="font-size: 2rem;">🔬</span>
+                            <p style="color: #666; margin-top: 10px; font-weight: 500;">Lab Result Interpretation</p>
+                        </div>
+                        <div style="flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 2px dashed #667eea; text-align: center;">
+                            <span style="font-size: 2rem;">📝</span>
+                            <p style="color: #666; margin-top: 10px; font-weight: 500;">Clinical Summary Generator</p>
+                        </div>
                     </div>
                 </div>
             </div>
