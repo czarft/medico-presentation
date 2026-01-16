@@ -487,7 +487,7 @@
             margin: 0 5px;
         }
 
-        /* Responsive */
+        /* Responsive - Tablet (iPad) */
         @media (max-width: 1200px) {
             .slide {
                 padding: 40px;
@@ -502,7 +502,113 @@
             }
 
             .module-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 10px;
+            }
+
+            .feature-grid {
+                grid-template-columns: repeat(2, 1fr) !important;
+            }
+
+            .keyboard-hint {
+                display: none;
+            }
+        }
+
+        /* iPad Portrait */
+        @media (max-width: 1024px) {
+            .slide {
+                padding: 30px;
+            }
+
+            .slide-header h2 {
+                font-size: 2.2rem;
+            }
+
+            .module-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 8px;
+            }
+
+            .module-card {
+                padding: 10px;
+            }
+
+            .module-icon {
+                font-size: 1.5rem;
+            }
+
+            .module-card h4 {
+                font-size: 0.85rem;
+            }
+
+            .module-card p {
+                font-size: 0.75rem;
+            }
+
+            .screenshot-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .screenshot-mobile {
+                max-height: 300px;
+            }
+
+            .screenshot-desktop {
+                max-height: 280px;
+            }
+
+            .nav-controls {
+                bottom: 20px;
+            }
+
+            .nav-btn {
+                padding: 12px 25px;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .slide {
+                padding: 20px;
+            }
+
+            .slide-title h1 {
+                font-size: 1.8rem;
+            }
+
+            .slide-title .subtitle {
+                font-size: 1.2rem;
+            }
+
+            .slide-header h2 {
+                font-size: 1.6rem;
+            }
+
+            .module-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr !important;
+            }
+
+            .ai-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+
+            .stat-card {
+                padding: 15px;
+            }
+
+            .stat-value {
+                font-size: 1.8rem;
             }
         }
     </style>
